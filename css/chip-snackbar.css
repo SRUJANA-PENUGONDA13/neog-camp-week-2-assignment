@@ -1,0 +1,82 @@
+/* Chip Container */
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .chip-container {
+    height: 400px !important;
+  }
+}
+header {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+}
+.chip-container,
+.snackbar-container {
+  height: 250px;
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.chip-header {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.5rem;
+}
+.chip-list {
+  width: auto;
+  align-items: flex-end;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.chip {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  border-radius: 12px;
+  border: 2px solid lightgray;
+  padding: 5px;
+}
+hr {
+  width: auto;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.chip-container:hover hr {
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.snackbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.snackbar-item {
+  border: 1px solid black;
+  /* height: 50px; */
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #333333;
+  color: white;
+}
+.snackbar-item a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}

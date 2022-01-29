@@ -1,0 +1,36 @@
+:root {
+  --background-color: #efefef;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  padding: 6rem;
+  font-size: 3rem;
+  gap: 2.5rem;
+  align-items: center;
+}
+.assignment-list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.assignment-item {
+  padding: 10px 5px 10px 30px;
+  width: 225px;
+  font-size: 1.8rem;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+.assignment-link {
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+}
+.assignment-link:hover {
+  color: blue;
+}

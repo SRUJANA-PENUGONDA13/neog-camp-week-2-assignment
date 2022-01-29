@@ -1,0 +1,97 @@
+header {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+}
+.drawer-container,
+.badge-container {
+  margin: 20px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.drawer-box {
+  height: 250px;
+  flex-basis: 230px;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 0.4rem;
+}
+.drawer-header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.drawer-title {
+  font-weight: bold;
+}
+.drawer-body {
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+}
+.drawer-item {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.drawer-item i {
+  padding-right: 40px;
+}
+.active-link {
+  background-color: royalblue;
+}
+.inactive-link:hover {
+  background-color: lightgray;
+}
+
+/* Badge Container */
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.badge-container {
+  font-size: xx-large;
+}
+.action-btn {
+  font-size: large;
+  background-color: royalblue;
+  padding: 8px;
+  border-radius: 4px;
+}
+.badge-1,
+.badge-2,
+.badge-3 {
+  position: relative;
+}
+.badge {
+  height: 0.8rem;
+  width: 0.8rem;
+  padding: 3px 6px 6px 3px;
+  font-size: medium;
+
+  font-weight: bold;
+  border-radius: 50%;
+  border-radius: 1px solid black;
+  background-color: red;
+  position: absolute;
+  color: white;
+}
+.badge-1 .badge {
+  top: -8px;
+  left: -15px;
+}
+.badge-2 .badge {
+  bottom: -1px;
+  right: -10px;
+}
+.badge-3 .badge {
+  top: -5px;
+  right: -10px;
+}
