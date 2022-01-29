@@ -2,7 +2,7 @@
 /* Media queries */
 @media screen and (max-width: 480px) {
   .chip-container {
-    height: 400px !important;
+    height: 500px !important;
   }
 }
 header {
